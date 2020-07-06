@@ -1,0 +1,33 @@
+.message-list {
+    padding-bottom: 50px;
+}
+
+.message {
+    background-color: aquamarine;
+}
+
+.input-area {
+    background-color: cornflowerblue;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+#inputField {
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    flex: auto;
+}
+
+#inputButton {
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    flex: 5rem;
+}
